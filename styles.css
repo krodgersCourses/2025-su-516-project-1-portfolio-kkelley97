@@ -136,6 +136,7 @@ nav {
     margin-bottom: 10px;
 
 }
+
 .fam1 h4 {
     font-size: 16px;
     margin: 5px 0;
@@ -176,13 +177,55 @@ nav {
     width: auto;
 }
 
+/*hobby pictures*/
+h3 {
+  text-align: center;
+}
 
+.grandkids, .farm, .chopping, .camp, 
+.garden, .photo, .bird {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
 
-/*.button-box {
-    text-align: center; font-family: 'ink free';
-    font-weight: 500;
-}*/
+.kid-item, .farm-item, .chop-item,
+.camp-item, .hobby-item,
+.garden-item, .photo-item, .bird-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* Style the images */
+.kid1-item, .farm1-item, .chop1-item, 
+.camp1-item, .garden1-item, .photo1-item, 
+.bird1-item {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid #004d4d;
+  border-radius: 8px;
+}
+
+.hobby-wide {
+    width: 400px;
+    height: 250px;
+}
+
+.kid1-item, .farm1-item, .chop1-item, 
+.camp1-item, .garden1-item, .photo1-item, 
+.bird1-item {
+  height: 250px;       /* or any height you prefer */
+  width: 100%;         /* fills the container */
+  max-width: 220px;    /* consistent width */
+  object-fit: cover;   /* crops and maintains aspect ratio */
+  border: 3px solid #004d4d;
+  border-radius: 8px;
+  display: block;
+}
 
 footer {
     background-color: #b3ffff;
@@ -193,3 +236,7 @@ footer {
     margin-top: 50px;
     align-items: center;
 }
+
+
+
+
